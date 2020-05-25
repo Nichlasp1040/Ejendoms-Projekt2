@@ -1,3 +1,13 @@
 ﻿body {
     
 }
+.Header {
+    height: 50px;
+    width: auto;
+    border: 1px solid black;
+}
+.LogNewUser {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
