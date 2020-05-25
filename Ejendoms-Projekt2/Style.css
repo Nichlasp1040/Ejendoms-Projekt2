@@ -1,13 +1,23 @@
 ﻿body {
-    
+    margin: 0px;
 }
 .Header {
-    height: 50px;
-    width: auto;
-    border: 1px solid black;
+    height: 15vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
 }
 .LogNewUser {
     width: auto;
     height: auto;
+    float: right;
+    margin-top: 13vh;
     border: 1px solid black;
+}
+.Logo {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
 }
