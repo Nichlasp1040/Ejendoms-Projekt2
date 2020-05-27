@@ -6,10 +6,30 @@
     <title>Hjem</title>
 </head>
 <body>
-    <div class="Header">
-        <div class="Logo"></div>
-        <div class="LogNewUser"><a href="#">Login | Ny bruger</a></div>
-        
-    </div>
+    
+    <header class="Header">
+    <!--hedder, som holder navbar og Logo-->
+
+        <div class="Logo">
+            <img class="ZBClogo" src="img1/zbc_black.jpg" />
+        </div>
+
+
+        <nav class="LogNewUser">
+            <a class="ButtenNav" href="#">Login </a>
+            <a class="ButtenNav" href="#">Ny bruger</a>
+        </nav>
+
+    </header>
+
+    <button type="button">Click Me!</button>
+    <button onclick="myalert()">Show Alert Message</button>
+    <script>
+        function myalert() {
+            alert("Welcome to GeeksforGeeks.\n" + "It is the best portal for computer" + "science enthusiasts!")
+
+        }
+    </script>
+
 </body>
 </html>
