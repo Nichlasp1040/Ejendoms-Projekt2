@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img1\zbc_black.jpg" />
     <Content Include="Index.html" />
     <Content Include="information.html" />
     <Content Include="Style.css" />
