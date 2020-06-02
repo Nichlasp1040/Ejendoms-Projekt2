@@ -1,5 +1,99 @@
-﻿body {
-    
+﻿.container
+{
+    position: relative; 
+    width: 1650px;
+    height: 307px;
+    margin: 24px auto;
+    background: #c0daea;
+}
+
+parent {
+    position: relative
+}
+
+.logo {
+    background-image: gang;
+    width: 600px;
+
+  
+    top: relative;
+    left: 0;
+    z-index: 9
+}
+.backgroundimage {
+    position: relative;
+    background-image: url(gangtilhjemmeside.jpg);
+    height: 600px;
+    width: 1650px;
+}
+.gang {
+    background-image: url("gangtilhjemmeside.jpg");
+    width: 1650px;
+    height: 600px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10
+}
+
+.box1 {
+    width: 400px;
+    height: 300px;
+    background: #87e794;
+    border: solid;
+    display: inline-block;
+}
+
+.box2 {
+    width: 400px;
+    height: 80px;
+    background: #b76ed5;
+
+}
+
+
+.box3 {
+    width: 400px;
+    height: 300px;
+    background: #87e794;
+    border: solid;
+    display: inline-block;
+}
+
+.box4 {
+    width: 400px;
+    height: 80px;
+    background: #b76ed5;
+}
+
+
+.box5 {
+  
+    display: inline-block; 
+    float:left;
+    width: 400px;
+    height: 300px;
+    background: #87e794;
+    border:solid;
+}
+
+.box6 {
+    float: right;
+    width: 400px;
+    height: 80px;
+    background: #b76ed5;
+}
+<style>
+body {
+    background-image: url('gang_til_hjemmeside.jpg');
+}
+
+</style >
+
+<html >
+<style >
+body {
+    background-image: url('img_girl.jpg');
 }
 .Header {
     height: 50px;
