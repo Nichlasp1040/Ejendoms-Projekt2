@@ -10,8 +10,9 @@
     display: inline-block;
     width: 25%;
     height: auto;
-    background: #87e794;
+    background: #ffffff;
     border: solid 1px;
+    margin-left: 6%;
 }
 
 
@@ -45,7 +46,7 @@ ul {
 /*Ny bruger / login baggrund og position*/
 li a {
     font-family: Arial;
-    font-size: 70%;
+    font-size: 85%;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -54,10 +55,14 @@ li a {
     padding: 1% 1%;
 }
 
-    li a:hover {
-        background-color: #ffffff;
-        color: #000000;
-    }
+.home {
+    float: left;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
 
 /*Nødvendigt*/
 .Logo {
@@ -72,4 +77,17 @@ li a {
 .ZBClogo {
     height: 100%;
     width: 100%;
+}
+
+.row {
+    margin: 20%;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
 }
