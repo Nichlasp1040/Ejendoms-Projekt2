@@ -1,6 +1,5 @@
-﻿.container
-{
-    position: relative; 
+﻿.container {
+    position: relative;
     width: 1650px;
     height: 307px;
     margin: 24px auto;
@@ -14,18 +13,18 @@ parent {
 .logo {
     background-image: gang;
     width: 600px;
-
-  
     top: relative;
     left: 0;
     z-index: 9
 }
+
 .backgroundimage {
     position: relative;
     background-image: url(gangtilhjemmeside.jpg);
     height: 600px;
     width: 1650px;
 }
+
 .gang {
     background-image: url("gangtilhjemmeside.jpg");
     width: 1650px;
@@ -36,54 +35,22 @@ parent {
     z-index: 10
 }
 
-.box1 {
-    width: 400px;
-    height: 300px;
-    background: #87e794;
-    border: solid;
-    display: inline-block;
-}
-
-.box2 {
-    width: 400px;
-    height: 80px;
-    background: #b76ed5;
-
+Firstbox {
+    
 }
 
 
-.box3 {
-    width: 400px;
-    height: 300px;
-    background: #87e794;
-    border: solid;
-    display: inline-block;
-}
-
-.box4 {
-    width: 400px;
-    height: 80px;
-    background: #b76ed5;
-}
-
-
+/*Farven grøn og position nr 4*/
 .box5 {
-  
-    display: inline-block; 
-    float:left;
+    display: inline-block;
+    float: left;
     width: 400px;
     height: 300px;
     background: #87e794;
-    border:solid;
+    border: solid;
 }
 
-.box6 {
-    float: right;
-    width: 400px;
-    height: 80px;
-    background: #b76ed5;
-}
-<style>
+
 body {
     margin: 0px;
     padding: 0px;
@@ -119,16 +86,12 @@ li a {
     padding: 1% 1%;
 }
 
-li a:hover {
-    background-color: #ffffff;
-    color: black;
-    background-image: url('gang_til_hjemmeside.jpg');
-}
+    li a:hover {
+        background-color: #ffffff;
+        color: black;
+        background-image: url('gang_til_hjemmeside.jpg');
+    }
 
-</style >
-
-<html >
-<style >
 body {
     background-image: url('img_girl.jpg');
 }
@@ -140,6 +103,7 @@ body {
     margin-left: 10px;
     margin-top: 20px;
 }
+
 .ZBClogo {
     height: 100%;
     width: 100%;
