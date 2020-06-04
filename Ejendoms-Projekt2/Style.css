@@ -1,12 +1,4 @@
-﻿/*.container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 24px auto;
-    background: #c0daea;
-}*/
-
-.box {
+﻿.box {
     display: inline-block;
     width: 25%;
     height: auto;
@@ -14,7 +6,6 @@
     border: solid 1px;
     margin-left: 6%;
 }
-
 
 /*Ændre den senere? - muligvis ikke røre*/
 body {
@@ -25,7 +16,6 @@ body {
 Header {
     height: 15%;
     width: 100%;
-    /*padding-bottom: 15%;*/
 }
 
 /*Nødvendigt*/
@@ -81,7 +71,6 @@ li a:hover {
 
 .row {
     margin: 20%;
-
 }
 
 h2 {
@@ -90,4 +79,36 @@ h2 {
 
 table {
     margin: 0 auto;
+}
+
+.Login {
+    float: left;
+    padding: 2%;
+    width: 40%;
+}
+
+.Newuser {
+    float: right;
+    padding: 2%;
+    border-left: solid black 2px;
+    width: 50%;
+}
+
+.Login-Box {
+    margin-left: 40%;
+}
+
+.Newuser-Box {
+    margin-left: 40%;
+}
+
+h3 {
+    margin: 0%;
+    width: 0%;
+}
+
+.OpratLoginButton {
+    text-decoration: none;
+    margin-left: 40%;
+    margin-top: 1%;
 }
