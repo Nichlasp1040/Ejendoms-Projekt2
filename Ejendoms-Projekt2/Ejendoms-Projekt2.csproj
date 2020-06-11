@@ -71,7 +71,6 @@
     <Content Include="Index.aspx" />
     <Content Include="Index.html" />
     <Content Include="information.html" />
-    <Content Include="NybrugerOgLogin.aspx" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -89,13 +88,6 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NybrugerOgLogin.aspx.cs">
-      <DependentUpon>NybrugerOgLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NybrugerOgLogin.aspx.designer.cs">
-      <DependentUpon>NybrugerOgLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
