@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="img1\zbc_black.jpg" />
     <Content Include="Index.aspx" />
-    <Content Include="Index.html" />
     <Content Include="information.html" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
