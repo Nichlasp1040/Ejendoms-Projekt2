@@ -67,8 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\database med informationer om lokaler.mdf" />
+    <Content Include="App_Data\database med informationer om lokaler_log.ldf">
+      <DependentUpon>database med informationer om lokaler.mdf</DependentUpon>
+    </Content>
     <Content Include="Index.html" />
     <Content Include="information.html" />
+    <Content Include="login.html" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
